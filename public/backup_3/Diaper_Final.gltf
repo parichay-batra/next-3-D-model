@@ -1,0 +1,313 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 468360,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 95420,
+      "max": [
+        7.75630283355713,
+        18.0840549468994,
+        7.39676666259766
+      ],
+      "min": [
+        -8.24533748626709,
+        -0.791037559509277,
+        -7.85289859771729
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 95420,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 95420,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 95420,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 345909,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 58513,
+      "max": [
+        7.5744366645813,
+        18.0276165008545,
+        6.6769905090332
+      ],
+      "min": [
+        -7.58029270172119,
+        -0.378396987915039,
+        -7.6417989730835
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 58513,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 58513,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 58513,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Adobe Substance 3D Painter 8.1.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1873440,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1145040,
+      "byteOffset": 1873440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1145040,
+      "byteOffset": 3018480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1526720,
+      "byteOffset": 4163520,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 763360,
+      "byteOffset": 5690240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1383636,
+      "byteOffset": 6453600,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 702156,
+      "byteOffset": 7837236,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 702156,
+      "byteOffset": 8539392,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 936208,
+      "byteOffset": 9241548,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 468104,
+      "byteOffset": 10177756,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 10645860,
+      "uri": "Diaper_Final.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "1001_baseColor.png"
+    },
+    {
+      "uri": "1001_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "1001_normal.png"
+    },
+    {
+      "uri": "1002_baseColor.png"
+    },
+    {
+      "uri": "1002_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "1002_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "1001",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "name": "1002",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Diaper",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Diaper",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "Diaper"
+    },
+    {
+      "mesh": 0,
+      "name": "Diaper"
+    },
+    {
+      "mesh": 1,
+      "name": "Diaper"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}
