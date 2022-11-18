@@ -24,7 +24,7 @@ const Model = () => {
         // onScroll={callFunc}
         // onMouseEnter={callFunc}
         // onKeyDown={callFunc}
-        poster="https://images.myloapp.in/gullack_products/product_1663747727_432835871.webp"
+        poster="https://mylofamily.com/_next/image?url=https%3A%2F%2Fimages.myloapp.in%2Fgullack_products%2Fproduct_1662022477_1766390914.webp&w=256&q=90"
       >
         <div className="poster" slot="poster"></div>
       </model-viewer>
