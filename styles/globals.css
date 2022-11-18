@@ -31,5 +31,16 @@ model-viewer {
 
   background-color: #70bcd1;
 
-  --poster-color: #ffffff00;
+}
+.poster{
+  background-image: url(https://mylofamily.com/_next/image?url=https%3A%2F%2Fimages.myloapp.in%2Fgullack_products%2Fproduct_1663747673_338392729.webp&w=256&q=90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
